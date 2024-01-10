@@ -988,7 +988,7 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
-  m_PlayerPrefab: {fileID: 702181516823533974, guid: d560bcd98abe1d943b69e1cee64d902e, type: 3}
+  m_PlayerPrefab: {fileID: 5557334226895844450, guid: 1cc1f65ea091bf44bb4dfb9b4336c535, type: 3}
   m_SplitScreen: 0
   m_MaintainAspectRatioInSplitScreen: 0
   m_FixedNumberOfSplitScreens: -1
@@ -1360,13 +1360,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0018580698, y: -0, z: -0, w: 0.9999983}
-  m_LocalPosition: {x: 0, y: 4.68, z: -9.4}
+  m_LocalRotation: {x: -0.019932888, y: -0, z: -0, w: 0.99980134}
+  m_LocalPosition: {x: 0, y: 2.82, z: -7.67}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0.213, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -2.284, y: 0, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0

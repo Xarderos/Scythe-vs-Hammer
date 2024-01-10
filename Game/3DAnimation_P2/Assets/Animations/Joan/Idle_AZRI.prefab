@@ -90,7 +90,7 @@ Animator:
   m_GameObject: {fileID: 702181516823533974}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 8e8e133b45a184749a90955c309bd02b, type: 3}
-  m_Controller: {fileID: 9100000, guid: d740f05450e621842b56b1468f71b77c, type: 2}
+  m_Controller: {fileID: 9100000, guid: 066dfc9bede477f4eb41b8dbfa613cb9, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -128,10 +128,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StartPositions:
   - {x: -1, y: 1, z: 0}
-  - {x: 1, y: 1, z: 0}
   StartRotations:
   - {x: 0, y: 90, z: 0}
-  - {x: 0, y: -90, z: 0}
 --- !u!114 &938306106195362157
 MonoBehaviour:
   m_ObjectHideFlags: 0

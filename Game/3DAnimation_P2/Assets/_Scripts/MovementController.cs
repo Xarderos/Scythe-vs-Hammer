@@ -58,6 +58,7 @@ public class MovementController : MonoBehaviour
 
     public void LateUpdate()
     {
+     
         var pos = transform.position;
         pos.z = 0;
         transform.position = pos;
