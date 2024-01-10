@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 16309 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'es' Physical Memory: 16316 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
+D:\Unity v22\2022.3.10f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/Xavi/Documents/GitHub/Scythe-vs-Hammer/Game/3DAnimation_P2
+C:/Users/joane/Documents/GitHub/Scythe-vs-Hammer/Game/3DAnimation_P2
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-56435
-Successfully changed project path to: C:/Users/Xavi/Documents/GitHub/Scythe-vs-Hammer/Game/3DAnimation_P2
-C:/Users/Xavi/Documents/GitHub/Scythe-vs-Hammer/Game/3DAnimation_P2
+62385
+Successfully changed project path to: C:/Users/joane/Documents/GitHub/Scythe-vs-Hammer/Game/3DAnimation_P2
+C:/Users/joane/Documents/GitHub/Scythe-vs-Hammer/Game/3DAnimation_P2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,65 +49,67 @@ C:/Users/Xavi/Documents/GitHub/Scythe-vs-Hammer/Game/3DAnimation_P2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25456] Host "[IP] 192.168.1.131 [Port] 0 [Flags] 2 [Guid] 3126138726 [EditorId] 3126138726 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M0JCFSU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4020] Host "[IP] 192.168.1.25 [Port] 0 [Flags] 2 [Guid] 3155975177 [EditorId] 3155975177 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-12R74S7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [25456] Host "[IP] 192.168.1.131 [Port] 0 [Flags] 2 [Guid] 3126138726 [EditorId] 3126138726 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M0JCFSU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4020] Host "[IP] 192.168.1.25 [Port] 0 [Flags] 2 [Guid] 3155975177 [EditorId] 3155975177 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-12R74S7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 6.19 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 14.05 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Xavi/Documents/GitHub/Scythe-vs-Hammer/Game/3DAnimation_P2/Assets
+[Subsystems] Discovering subsystems at path D:/Unity v22/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/joane/Documents/GitHub/Scythe-vs-Hammer/Game/3DAnimation_P2/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2486)
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
     Vendor:   NVIDIA
-    VRAM:     8038 MB
-    Driver:   31.0.15.4633
+    VRAM:     6043 MB
+    Driver:   31.0.15.3713
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Mono path[0] = 'D:/Unity v22/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity v22/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity v22/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009772 seconds.
-- Loaded All Assemblies, in  0.323 seconds
+Register platform support module: D:/Unity v22/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity v22/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012026 seconds.
+- Loaded All Assemblies, in  0.656 seconds
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.212 seconds
-Domain Reload Profiling: 532ms
-	BeginReloadAssembly (113ms)
+- Finished resetting the current domain, in  0.395 seconds
+Domain Reload Profiling: 1050ms
+	BeginReloadAssembly (217ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (113ms)
-		LoadAssemblies (109ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (254ms)
+		LoadAssemblies (218ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (111ms)
-			TypeCache.Refresh (110ms)
-				TypeCache.ScanAssembly (99ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (212ms)
+		AnalyzeDomain (250ms)
+			TypeCache.Refresh (247ms)
+				TypeCache.ScanAssembly (225ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (396ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (163ms)
+		SetupLoadedEditorAssemblies (304ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (107ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (207ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,56 +117,78 @@ Domain Reload Profiling: 532ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.457 seconds
-Refreshing native plugins compatible for Editor in 2.36 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.805 seconds
+Refreshing native plugins compatible for Editor in 5.24 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.472 seconds
-Domain Reload Profiling: 926ms
-	BeginReloadAssembly (132ms)
+- Finished resetting the current domain, in  0.782 seconds
+Domain Reload Profiling: 1584ms
+	BeginReloadAssembly (259ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (244ms)
-		LoadAssemblies (241ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (405ms)
+		LoadAssemblies (431ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (82ms)
-			TypeCache.Refresh (70ms)
-				TypeCache.ScanAssembly (59ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (473ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (120ms)
+				TypeCache.ScanAssembly (104ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (782ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (359ms)
+		SetupLoadedEditorAssemblies (583ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (50ms)
-			ProcessInitializeOnLoadAttributes (273ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (467ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.67 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 5.00 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1923 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1924 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 41 unused Assets / (1.3 MB). Loaded Objects now: 2383.
-Memory consumption went from 100.8 MB to 99.5 MB.
-Total: 2.923700 ms (FindLiveObjects: 0.145200 ms CreateObjectMapping: 0.045900 ms MarkObjects: 2.429000 ms  DeleteObjects: 0.302700 ms)
+Memory consumption went from 100.9 MB to 99.6 MB.
+Total: 5.215500 ms (FindLiveObjects: 0.248900 ms CreateObjectMapping: 0.072900 ms MarkObjects: 4.168200 ms  DeleteObjects: 0.723800 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (1.2 MB). Loaded Objects now: 2383.
+Memory consumption went from 64.6 MB to 63.4 MB.
+Total: 6.303300 ms (FindLiveObjects: 0.250000 ms CreateObjectMapping: 0.070900 ms MarkObjects: 5.391000 ms  DeleteObjects: 0.589600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
@@ -180,456 +204,1457 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 42443.951098 seconds.
-  path: Assets/Animations/AnimatorThor.controller
-  artifactKey: Guid(d740f05450e621842b56b1468f71b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/AnimatorThor.controller using Guid(d740f05450e621842b56b1468f71b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1f01959a1dd1ccf2eb99bae98b789b') in 0.028589 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 42
-========================================================================
-Received Import Request.
-  Time since last request: 2.420510 seconds.
-  path: Assets/Animations/AnimatorAzri.controller
-  artifactKey: Guid(066dfc9bede477f4eb41b8dbfa613cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/AnimatorAzri.controller using Guid(066dfc9bede477f4eb41b8dbfa613cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef305fdd69e2bad459d36bb94d9cd62a') in 0.016970 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 42
-========================================================================
-Received Import Request.
-  Time since last request: 31.419337 seconds.
-  path: Assets/Animations/Joan/Idle_AZRI.prefab
-  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'AnimatorAzri': Transition 'Idle -> QuickAttack' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
-UnityEditor.GameObjectInspector:GetPreviewData (bool)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\build\output\unity\unity\Editor\Src\Animation\StateMachine.cpp line 1841]
-
- -> (artifact id: '96fbb35c2ebdfc03e1b0723b5cf762f0') in 0.155985 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1659
-========================================================================
-Received Import Request.
-  Time since last request: 3.518085 seconds.
-  path: Assets/Animations/Xavi
-  artifactKey: Guid(9ec2bbb4a109fd3428fbeefd94499246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Xavi using Guid(9ec2bbb4a109fd3428fbeefd94499246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c6dc02679994eafb19a711afe7f08b') in 0.000657 seconds
+  Time since last request: 176847.125430 seconds.
+  path: Assets/Animations/Joan
+  artifactKey: Guid(9a4dc7705c9d3284fa421838f0a9b40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan using Guid(9a4dc7705c9d3284fa421838f0a9b40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e134904e63604cc1902cf625039ee461') in 0.007401 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.058513 seconds.
-  path: Assets/Animations/Xavi/Die.fbx
-  artifactKey: Guid(8b1d0289a331e0544a704bed28366056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Xavi/Die.fbx using Guid(8b1d0289a331e0544a704bed28366056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2605bd56c7e04171b06e64a7af269e0') in 0.350379 seconds
+  Time since last request: 0.040213 seconds.
+  path: Assets/Animations/Joan/AttackFast_AZRI.fbx
+  artifactKey: Guid(fc1c35c4ed5f73b48ad57352c8e79e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/AttackFast_AZRI.fbx using Guid(fc1c35c4ed5f73b48ad57352c8e79e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd4ab157d14eeed5715117b7b8f17b1') in 0.387584 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 600
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Animations/Xavi/LowQuickAttack.fbx
-  artifactKey: Guid(fcd6535e527b9ef4b917a12da616e10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Xavi/LowQuickAttack.fbx using Guid(fcd6535e527b9ef4b917a12da616e10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c394a565601567dd7113112e9861bd6') in 0.253514 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 624
+Number of asset objects unloaded after import = 543
 ========================================================================
 Received Import Request.
   Time since last request: 0.000039 seconds.
-  path: Assets/Animations/Xavi/WalkBW.fbx
-  artifactKey: Guid(11020125bf7de4946845cf0c8a34eda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Xavi/WalkBW.fbx using Guid(11020125bf7de4946845cf0c8a34eda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f190f4449ba96ca4cd2c48b053df7743') in 0.210821 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 624
-========================================================================
-Received Import Request.
-  Time since last request: 3.981453 seconds.
-  path: Assets/Animations/Xavi/Idle.prefab
-  artifactKey: Guid(1cc1f65ea091bf44bb4dfb9b4336c535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Xavi/Idle.prefab using Guid(1cc1f65ea091bf44bb4dfb9b4336c535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62be5034d61d8f1ebf17f2a7747a738f') in 0.103608 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1839
-========================================================================
-Received Import Request.
-  Time since last request: 6.074173 seconds.
-  path: Assets/KY_effects/MagicEffectsPackFree/prefab/00_primitive/energyBlast.prefab
-  artifactKey: Guid(9565cde8c7698420aa10544579cb6f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KY_effects/MagicEffectsPackFree/prefab/00_primitive/energyBlast.prefab using Guid(9565cde8c7698420aa10544579cb6f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e55a37b6c46770c8ba6aff3bb449cc0') in 0.023166 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/KY_effects/MagicEffectsPackFree/prefab/00_primitive/ErekiBall.prefab
-  artifactKey: Guid(769fbd11a7ef2445682e024c98c276b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KY_effects/MagicEffectsPackFree/prefab/00_primitive/ErekiBall.prefab using Guid(769fbd11a7ef2445682e024c98c276b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65c4d516da001d0930693e2aa0da3ad') in 0.015305 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000438 seconds.
-  path: Assets/KY_effects/MagicEffectsPackFree/prefab/ErekiBall2.prefab
-  artifactKey: Guid(200e650fba6c8492b87e96e4bc273510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KY_effects/MagicEffectsPackFree/prefab/ErekiBall2.prefab using Guid(200e650fba6c8492b87e96e4bc273510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0260f9ce380c7a39503f987e4631011a') in 0.032939 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.002796 seconds.
-  path: Assets/KY_effects/MagicEffectsPackFree/prefab/GreenCore.prefab
-  artifactKey: Guid(906ef3748a66347cfb2d72de10092732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KY_effects/MagicEffectsPackFree/prefab/GreenCore.prefab using Guid(906ef3748a66347cfb2d72de10092732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fee575760f752ba5597a735b9a5697f') in 0.015299 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 0.007810 seconds.
-  path: Assets/Samples/Input System/1.3.0/Simple Multiplayer/Player.prefab
-  artifactKey: Guid(e9f16d7642431df438e3f16792e6d57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Input System/1.3.0/Simple Multiplayer/Player.prefab using Guid(e9f16d7642431df438e3f16792e6d57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33331fc3818a0c9562a8147e7544bdf') in 0.029796 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 572
-========================================================================
-Received Import Request.
-  Time since last request: 0.003723 seconds.
-  path: Assets/KY_effects/MagicEffectsPackFree/prefab/Spark.prefab
-  artifactKey: Guid(bcf46e46336114145b09deb1db11d480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KY_effects/MagicEffectsPackFree/prefab/Spark.prefab using Guid(bcf46e46336114145b09deb1db11d480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2317136b09f97eecd1ab6895ce1f0383') in 0.010633 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.006762 seconds.
-  path: Assets/KY_effects/MagicEffectsPackFree/prefab/WhityBomb.prefab
-  artifactKey: Guid(4d0391f078db24fac9f5cba3075f9f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KY_effects/MagicEffectsPackFree/prefab/WhityBomb.prefab using Guid(4d0391f078db24fac9f5cba3075f9f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0875a7553ddaf321596785557e7f8f5') in 0.020153 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.419 seconds
-Refreshing native plugins compatible for Editor in 2.73 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.730 seconds
-Domain Reload Profiling: 1145ms
-	BeginReloadAssembly (152ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (180ms)
-		LoadAssemblies (261ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (8ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (731ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (396ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (303ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.96 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1889 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (1.3 MB). Loaded Objects now: 2432.
-Memory consumption went from 100.9 MB to 99.6 MB.
-Total: 3.212600 ms (FindLiveObjects: 0.182500 ms CreateObjectMapping: 0.046400 ms MarkObjects: 2.678800 ms  DeleteObjects: 0.303900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.407 seconds
-Refreshing native plugins compatible for Editor in 2.96 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.723 seconds
-Domain Reload Profiling: 1125ms
-	BeginReloadAssembly (146ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (182ms)
-		LoadAssemblies (259ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (723ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (394ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (297ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (14ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 3.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1890 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (1.3 MB). Loaded Objects now: 2435.
-Memory consumption went from 101.2 MB to 99.9 MB.
-Total: 3.480200 ms (FindLiveObjects: 0.265300 ms CreateObjectMapping: 0.061600 ms MarkObjects: 2.847900 ms  DeleteObjects: 0.304400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Import Request.
-  Time since last request: 85.338979 seconds.
-  path: Assets/Animations/Joan/Idle_AZRI.fbx
-  artifactKey: Guid(8e8e133b45a184749a90955c309bd02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Joan/Idle_AZRI.fbx using Guid(8e8e133b45a184749a90955c309bd02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1cda7b75c6e384ea82949a65450eda') in 0.154765 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 545
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.379 seconds
-Refreshing native plugins compatible for Editor in 2.38 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.684 seconds
-Domain Reload Profiling: 1059ms
-	BeginReloadAssembly (143ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (161ms)
-		LoadAssemblies (236ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (8ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (685ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (377ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (48ms)
-			ProcessInitializeOnLoadAttributes (295ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 2.84 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1889 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (1.3 MB). Loaded Objects now: 2438.
-Memory consumption went from 100.9 MB to 99.6 MB.
-Total: 2.861800 ms (FindLiveObjects: 0.221600 ms CreateObjectMapping: 0.052700 ms MarkObjects: 2.312400 ms  DeleteObjects: 0.274000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Import Request.
-  Time since last request: 26.702179 seconds.
-  path: Assets/Animations/Joan/Idle_AZRI.fbx
-  artifactKey: Guid(8e8e133b45a184749a90955c309bd02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Joan/Idle_AZRI.fbx using Guid(8e8e133b45a184749a90955c309bd02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff75a0cc69d5524bb6f5c9b1b50b86a') in 0.243161 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 545
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Animations/Joan/Walk_AZRI.fbx
-  artifactKey: Guid(5d1b09e2f64fe8f439d00d0783bb7952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Joan/Walk_AZRI.fbx using Guid(5d1b09e2f64fe8f439d00d0783bb7952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0401c97100fc6adab0e3134806af1903') in 0.120087 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 545
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Animations/Joan/AttackSlow_AZRI.fbx
-  artifactKey: Guid(9c82db075d12c4b4b9675a2b75c6cdc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Joan/AttackSlow_AZRI.fbx using Guid(9c82db075d12c4b4b9675a2b75c6cdc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3bc503912b177838b27e76102e50eae') in 0.074940 seconds
+  path: Assets/Animations/Joan/WalkBack_AZRI.fbx
+  artifactKey: Guid(1273bdc6de7456b45a1c82390ce351ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/WalkBack_AZRI.fbx using Guid(1273bdc6de7456b45a1c82390ce351ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d57a28bcf8fb4f6f965dd32e3ef5292') in 0.127112 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 543
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Animations/Joan/LowFastAttack_AZRI.fbx
-  artifactKey: Guid(ababba133669c3a45b851ec7579ba1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Joan/LowFastAttack_AZRI.fbx using Guid(ababba133669c3a45b851ec7579ba1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad458b1866184b36caa2fdfd129ff010') in 0.079887 seconds
+  Time since last request: 74.769051 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ddeaab055118bfc92bffccaca023c2a') in 0.103543 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 543
+Number of asset objects unloaded after import = 1660
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Animations/Joan/Win_AZRI.fbx
-  artifactKey: Guid(e0acc12128de5154d810aa6ac6b15d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Joan/Win_AZRI.fbx using Guid(e0acc12128de5154d810aa6ac6b15d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c6f84627849bb8b9307d6911162132') in 0.078326 seconds
+  Time since last request: 15.423862 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9cbec874cfb3e106809f59f3faa96c') in 0.091439 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 543
+Number of asset objects unloaded after import = 1660
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Animations/Joan/DodgeLow_AZRI.fbx
-  artifactKey: Guid(8e5d9edca0879b944a298ac7771b6086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Joan/DodgeLow_AZRI.fbx using Guid(8e5d9edca0879b944a298ac7771b6086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584f0936851154d2f44e8dd76f49861d') in 0.352905 seconds
+  Time since last request: 4.763190 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf4fd01a906a8e534238270d8e11f5d') in 0.086233 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 543
+Number of asset objects unloaded after import = 1660
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.402 seconds
-Refreshing native plugins compatible for Editor in 2.53 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.739 seconds
-Domain Reload Profiling: 1136ms
-	BeginReloadAssembly (146ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (178ms)
-		LoadAssemblies (250ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (740ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (408ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (313ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 3.03 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1889 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (1.3 MB). Loaded Objects now: 2441.
-Memory consumption went from 101.2 MB to 99.9 MB.
-Total: 3.294600 ms (FindLiveObjects: 0.215900 ms CreateObjectMapping: 0.047700 ms MarkObjects: 2.678100 ms  DeleteObjects: 0.351300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Import Request.
+  Time since last request: 1.918794 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c59ef14dcff4dbb9c44de132562cb4') in 0.101610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1660
+========================================================================
+Received Import Request.
+  Time since last request: 12.571070 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90ea3f988ce60fa532e06c771bd3121') in 0.087315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1660
+========================================================================
+Received Import Request.
+  Time since last request: 3.160801 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3818d55cd51d08107174b8ada255d6aa') in 0.129195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1660
+========================================================================
+Received Import Request.
+  Time since last request: 3.832221 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26e7fc33a09985b41373029a8c14a90') in 0.086786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1659
+========================================================================
+Received Import Request.
+  Time since last request: 6.550567 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bca5662901f9b08e6677bc7d47974f1') in 0.085632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1660
+========================================================================
+Received Import Request.
+  Time since last request: 5.347839 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e85358c49b0277f50b31df0e5097327') in 0.087609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1660
+========================================================================
+Received Import Request.
+  Time since last request: 3.802139 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689355601c3f79848d3e0c369dad9257') in 0.090777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1660
+========================================================================
+Received Import Request.
+  Time since last request: 2.739853 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fab8be05bc60aca2898d45cb3b6f1e') in 0.086612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1660
+========================================================================
+Received Import Request.
+  Time since last request: 1.324227 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501e39c67a629365cd6545774609ee96') in 0.089737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1660
+========================================================================
+Received Import Request.
+  Time since last request: 8.185228 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c0fd25b7ecd827f55305c365b572e0') in 0.089204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1660
+========================================================================
+Received Import Request.
+  Time since last request: 4.772680 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affb8c8ee110cbe951799321e738d11b') in 0.102058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1660
+========================================================================
+Received Import Request.
+  Time since last request: 23.738399 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe817d908b8598dc2345d826b42c9c02') in 0.089018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1661
+========================================================================
+Received Import Request.
+  Time since last request: 3.729572 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a67be6f5d15e9ccbd6bf8282da87cc') in 0.087762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1661
+========================================================================
+Received Import Request.
+  Time since last request: 4.966511 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77a39041f1df37d645b4f3ef21920e9') in 0.085897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1661
+========================================================================
+Received Import Request.
+  Time since last request: 1.324567 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1e9aeeeb76f846501711a32ed7beb8') in 0.086359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1661
+========================================================================
+Received Import Request.
+  Time since last request: 8.980016 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591e80abda7e6a623aeab2dd6feeea62') in 0.087152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1662
+========================================================================
+Received Import Request.
+  Time since last request: 36.029746 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc741e092c7931f9a685948abdd04d8b') in 0.088808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1663
+========================================================================
+Received Import Request.
+  Time since last request: 6.164721 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2714b90108327394fa86821b17eac6f') in 0.085970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1663
+========================================================================
+Received Import Request.
+  Time since last request: 20.099667 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2358eb3987d406cac86d5d6b735b0b') in 0.088443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1664
+========================================================================
+Received Import Request.
+  Time since last request: 11.208978 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748516446531678c06115ff810327b0b') in 0.086578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1665
+========================================================================
+Received Import Request.
+  Time since last request: 1.519483 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746a434523c8d6079dc30423990555cc') in 0.087781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1665
+========================================================================
+Received Import Request.
+  Time since last request: 0.519042 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11669578c09eee0cba41f2a859e93d9b') in 0.085341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1665
+========================================================================
+Received Import Request.
+  Time since last request: 16.833251 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a1425fa3466ade519dee906b64b8db') in 0.092414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1666
+========================================================================
+Received Import Request.
+  Time since last request: 0.904886 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53744be7197273e5b10f22499411acc1') in 0.087146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1666
+========================================================================
+Received Import Request.
+  Time since last request: 0.104994 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa79edbb1c3bfcbd4dae98d13ac0397c') in 0.086953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1666
+========================================================================
+Received Import Request.
+  Time since last request: 2.530029 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2419379e898888b0d8e60f6462b6a8a') in 0.089048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1667
+========================================================================
+Received Import Request.
+  Time since last request: 2.936716 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a53d87562f0588f9b0d86ebffc37d5') in 0.094584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1667
+========================================================================
+Received Import Request.
+  Time since last request: 1.516675 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15101f0bb070c787aa1ca7ef29f48e2') in 0.087862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1667
+========================================================================
+Received Import Request.
+  Time since last request: 2.737085 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2a0263526e306f3328d0b5cb59c863') in 0.085158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1667
+========================================================================
+Received Import Request.
+  Time since last request: 1.518606 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9dc48b635dda925fb97f3f54dfa86aa') in 0.086629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1667
+========================================================================
+Received Import Request.
+  Time since last request: 18.687978 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb02635c1fb6615dc6ac02e135386f6') in 0.098922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1667
+========================================================================
+Received Import Request.
+  Time since last request: 3.537551 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8a23e7c07fdc6ec45815065d0071dc') in 0.090385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1667
+========================================================================
+Received Import Request.
+  Time since last request: 3.941821 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba41253d68d95247d1bcb36aa916c0f3') in 0.092086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1667
+========================================================================
+Received Import Request.
+  Time since last request: 3.565168 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b66cfc713ff8a034153ff32e625dbf') in 0.088433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1667
+========================================================================
+Received Import Request.
+  Time since last request: 6.381387 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c456d024ca01c3a3f181728005ff084') in 0.088690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1667
+========================================================================
+Received Import Request.
+  Time since last request: 1.326442 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ecdfe34b4b023820f3e11bc989a82f8') in 0.102222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1667
+========================================================================
+Received Import Request.
+  Time since last request: 14.644736 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8b1f3fe3a47941df37d32e8985268a') in 0.089123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1668
+========================================================================
+Received Import Request.
+  Time since last request: 1.509089 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d97735589283a39a5cff93f8d2efe93') in 0.088441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1668
+========================================================================
+Received Import Request.
+  Time since last request: 3.538849 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52939123a6c740e38a5e3d3a48bf5af2') in 0.092207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1669
+========================================================================
+Received Import Request.
+  Time since last request: 2.711816 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1527aed523056e856da7af9941d18ef') in 0.086271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1670
+========================================================================
+Received Import Request.
+  Time since last request: 2.741047 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2791bbe94fb0c047c1f4386f4c702b3e') in 0.091717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1670
+========================================================================
+Received Import Request.
+  Time since last request: 0.987697 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3566d9b9c19c886e3d6534ffbc50bb9f') in 0.087874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1670
+========================================================================
+Received Import Request.
+  Time since last request: 3.981645 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1076dfdc8493dac7ead469673874da33') in 0.090511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1670
+========================================================================
+Received Import Request.
+  Time since last request: 2.148893 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d1dfd8644812c5a46f51c10a4fa5b1') in 0.085928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1670
+========================================================================
+Received Import Request.
+  Time since last request: 13.305006 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16d10d59b43ad36ae3f32bfb96fcb0a') in 0.089045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1670
+========================================================================
+Received Import Request.
+  Time since last request: 7.377604 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08dede74dc0e5ce7d858156b509cab79') in 0.087410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1670
+========================================================================
+Received Import Request.
+  Time since last request: 1.518307 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87eecf751ca4246f9aa8136f226e6818') in 0.089869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1670
+========================================================================
+Received Import Request.
+  Time since last request: 20.466021 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae6dae524951e4d54352b369ae36880') in 0.087827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1670
+========================================================================
+Received Import Request.
+  Time since last request: 1.185120 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd713c5fc6ecd154a226cc29b25545c84') in 0.087125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1670
+========================================================================
+Received Import Request.
+  Time since last request: 15.648593 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acaac3bb18eff44fe6832e95cb29e3b') in 0.091419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1670
+========================================================================
+Received Import Request.
+  Time since last request: 17.793818 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ecaca398fcfff117833a3e67c92653') in 0.087388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1669
+========================================================================
+Received Import Request.
+  Time since last request: 4.145470 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25eeeddad948acb947f29fc5f066a6ba') in 0.089835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1669
+========================================================================
+Received Import Request.
+  Time since last request: 0.880643 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ef91d00b3fdfc00c93a42e781f4a62') in 0.088164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1669
+========================================================================
+Received Import Request.
+  Time since last request: 3.774326 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c94564f7113407727cb7dfec3cc1b3') in 0.092282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1669
+========================================================================
+Received Import Request.
+  Time since last request: 1.616992 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7175a99a196b787d1a6ff6d11db08a1') in 0.087649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1669
+========================================================================
+Received Import Request.
+  Time since last request: 4.160965 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284d1dc03ed71b7e6fb22be130cab145') in 0.086070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1669
+========================================================================
+Received Import Request.
+  Time since last request: 9.200187 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3c49fa69c709724e97d9be535d5fdf') in 0.088898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1669
+========================================================================
+Received Import Request.
+  Time since last request: 2.128668 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1400e72c5ea083d1efbf3f21999fd90') in 0.089390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1669
+========================================================================
+Received Import Request.
+  Time since last request: 2.923497 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c51e564bd2ce0bea8a8f878c89963b') in 0.087873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1670
+========================================================================
+Received Import Request.
+  Time since last request: 2.726092 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a84885f643ce1e551cb7fd56b3b67be') in 0.086208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1671
+========================================================================
+Received Import Request.
+  Time since last request: 1.338330 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e026275d2375604993bb4f02041c5f5') in 0.088648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1671
+========================================================================
+Received Import Request.
+  Time since last request: 0.092190 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296f176762638d8961337a44893fb89b') in 0.085936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1671
+========================================================================
+Received Import Request.
+  Time since last request: 15.028464 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128d2ed61530b1e8c9d70933f3faec9e') in 0.094917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1671
+========================================================================
+Received Import Request.
+  Time since last request: 43.300277 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0be68f734c70c377257fe6361706300') in 0.089026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1672
+========================================================================
+Received Import Request.
+  Time since last request: 1.100509 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e739541ceb10622980cc59aa341c85') in 0.087216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1672
+========================================================================
+Received Import Request.
+  Time since last request: 2.747249 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2ebbd136dcc7c0837db65aa684f4d8') in 0.087235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1673
+========================================================================
+Received Import Request.
+  Time since last request: 5.364702 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1167e56fa345494eb337392fb095a3ae') in 0.087303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1673
+========================================================================
+Received Import Request.
+  Time since last request: 1.682230 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489a0d6741496656492e52fc9c81eee6') in 0.087133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1673
+========================================================================
+Received Import Request.
+  Time since last request: 3.158815 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858220b41fe29a8f648b49a9c927a16f') in 0.092588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1673
+========================================================================
+Received Import Request.
+  Time since last request: 4.744866 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada7f7f9a15e50d5eedf8e6d530d0d28') in 0.089162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1673
+========================================================================
+Received Import Request.
+  Time since last request: 2.137630 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925df19123c0f9137c7709a4000796b9') in 0.088490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1673
+========================================================================
+Received Import Request.
+  Time since last request: 2.782837 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb8cd0d6cfe2835ca1db16939c58f73') in 0.092235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1673
+========================================================================
+Received Import Request.
+  Time since last request: 4.136683 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5531c15833c26d372ebbfeb26beda9c') in 0.092874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1673
+========================================================================
+Received Import Request.
+  Time since last request: 5.559572 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770db1276727eb7a14ecd36ec94d959d') in 0.087865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1673
+========================================================================
+Received Import Request.
+  Time since last request: 2.329402 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d4cda1eec3790de542eabd91754d65') in 0.091222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1673
+========================================================================
+Received Import Request.
+  Time since last request: 2.938341 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afbde3776051e97ee5345c86279f8b76') in 0.088696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1674
+========================================================================
+Received Import Request.
+  Time since last request: 13.027976 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bd6f033f6f41aad85ab7da58bbca1b') in 0.099492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1675
+========================================================================
+Received Import Request.
+  Time since last request: 3.728728 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748b3497376eb9880e131320ea49aef6') in 0.087424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1676
+========================================================================
+Received Import Request.
+  Time since last request: 3.974429 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b939c4e9fbc8d4406e6ba34d95ef89') in 0.091290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1676
+========================================================================
+Received Import Request.
+  Time since last request: 0.714627 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca8b8155eefebf9fb0a3023e7e84d03') in 0.094795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1676
+========================================================================
+Received Import Request.
+  Time since last request: 0.094191 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132ebf7115f80af0c16136611abc4547') in 0.117458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1676
+========================================================================
+Received Import Request.
+  Time since last request: 2.734014 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7537e43d846c7bf3f9b94d0d60cf089') in 0.091213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1677
+========================================================================
+Received Import Request.
+  Time since last request: 2.806880 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c452c1cac1c40077cea22d5c80e0541c') in 0.088185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1677
+========================================================================
+Received Import Request.
+  Time since last request: 1.522740 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24342690e7a6601e87c1cc03b1c51c0f') in 0.088210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1677
+========================================================================
+Received Import Request.
+  Time since last request: 2.559545 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b172cb2d9c11529360ccb38ac6a5e8aa') in 0.093600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1677
+========================================================================
+Received Import Request.
+  Time since last request: 2.990933 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8690dcba802aada8c4063c118e52442') in 0.089947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1677
+========================================================================
+Received Import Request.
+  Time since last request: 2.938088 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de34d04b195fea6a1bd3c5408bf5f675') in 0.090658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1677
+========================================================================
+Received Import Request.
+  Time since last request: 13.829685 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78833974c65d67c0dd550158bb6f4a5') in 0.088659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1677
+========================================================================
+Received Import Request.
+  Time since last request: 3.531896 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874d9dc241667d08bdcc571feaae9a02') in 0.087423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1678
+========================================================================
+Received Import Request.
+  Time since last request: 6.346547 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22841d0d6e62db8896cbbc6d6fd21a4') in 0.087861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1678
+========================================================================
+Received Import Request.
+  Time since last request: 5.750882 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd041c16c279d5e1fb9a06c36ec80e52f') in 0.088318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1679
+========================================================================
+Received Import Request.
+  Time since last request: 8.195659 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f491c2f0903c4a9b6e1168b48edcbb82') in 0.088223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1679
+========================================================================
+Received Import Request.
+  Time since last request: 5.551695 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829f7da0817e158f3df5a7641c869e04') in 0.087685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1680
+========================================================================
+Received Import Request.
+  Time since last request: 2.325908 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd219491fba295a2f0b6ed9e862be381d') in 0.092799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1680
+========================================================================
+Received Import Request.
+  Time since last request: 0.092812 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889533c28eb4140d2ffa843358e6b916') in 0.088040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1680
+========================================================================
+Received Import Request.
+  Time since last request: 22.896858 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da57672220e5af9e22bd85f715956cd') in 0.091508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1681
+========================================================================
+Received Import Request.
+  Time since last request: 0.702971 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ff5c5e159ed30db555a730904bbe9a') in 0.091917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1681
+========================================================================
+Received Import Request.
+  Time since last request: 0.100196 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dff5d940a46d17522fa16f61aeb6a4f') in 0.087699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1681
+========================================================================
+Received Import Request.
+  Time since last request: 3.780079 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381169d046ce397efd1ed1d5bed60947') in 0.086811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1682
+========================================================================
+Received Import Request.
+  Time since last request: 2.367348 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d23f187308aa5732343701ceec65d1') in 0.088178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1683
+========================================================================
+Received Import Request.
+  Time since last request: 0.694888 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd28335a1498c902b35fb6d73babb50') in 0.092075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1683
+========================================================================
+Received Import Request.
+  Time since last request: 4.190782 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c38ea5cb757f3424cda754275051538') in 0.088273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1683
+========================================================================
+Received Import Request.
+  Time since last request: 7.794294 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a634f489c3afdbda2d649444a8c85e98') in 0.092576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1683
+========================================================================
+Received Import Request.
+  Time since last request: 18.461876 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c21f89cfa9e7ff2bdfda12680cb040') in 0.090484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1684
+========================================================================
+Received Import Request.
+  Time since last request: 2.510225 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354dae129215c95aa237ac2884e53d39') in 0.092805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1685
+========================================================================
+Received Import Request.
+  Time since last request: 0.905133 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e2ed568d4e201455eaa3554ae49b2a') in 0.089832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1685
+========================================================================
+Received Import Request.
+  Time since last request: 2.755267 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf3b23834432802ae4dee644760b940') in 0.089839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1686
+========================================================================
+Received Import Request.
+  Time since last request: 2.333993 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aadf2e7f3b218aa6b1de50d901821cd8') in 0.087828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1686
+========================================================================
+Received Import Request.
+  Time since last request: 2.056551 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01019dc2e87c719dd51e692e1808133') in 0.087751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1686
+========================================================================
+Received Import Request.
+  Time since last request: 2.131002 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47caeacca5991e5f2cfd8860be7c90fe') in 0.087472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1686
+========================================================================
+Received Import Request.
+  Time since last request: 1.542441 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d1b11b097ae76442b234c5034b388e') in 0.088239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1686
+========================================================================
+Received Import Request.
+  Time since last request: 3.132433 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e6c9f733c0c044cd0d8cab57b51c31') in 0.090329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1686
+========================================================================
+Received Import Request.
+  Time since last request: 3.181331 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89aee0206c2c50def5eea4b38aad3131') in 0.092797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1686
+========================================================================
+Received Import Request.
+  Time since last request: 5.762045 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04024a9fe63e0c5cd96f80603d1ebaee') in 0.097536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1686
+========================================================================
+Received Import Request.
+  Time since last request: 12.015702 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351317a73a073248c387606f2c1b5b8e') in 0.087519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1687
+========================================================================
+Received Import Request.
+  Time since last request: 2.132791 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d748fbcb0817ce9c880bd22100a5a7f') in 0.088682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1687
+========================================================================
+Received Import Request.
+  Time since last request: 0.092015 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd1d119da792c309300cfe7a675a03e') in 0.089325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1687
+========================================================================
+Received Import Request.
+  Time since last request: 2.720397 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a758067e2a569bdf05989a7a35b9c20') in 0.114641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1688
+========================================================================
+Received Import Request.
+  Time since last request: 3.317195 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4863e94d0219350eea105dc2be169273') in 0.088888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1689
+========================================================================
+Received Import Request.
+  Time since last request: 1.306110 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8425343946c58f9f0fb771048d925863') in 0.090554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1689
+========================================================================
+Received Import Request.
+  Time since last request: 2.144424 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a30353a8858dbb18159124a9a724083') in 0.088284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1689
+========================================================================
+Received Import Request.
+  Time since last request: 2.163385 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514e997fcf12879eabcea47cb15861a0') in 0.089915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1689
+========================================================================
+Received Import Request.
+  Time since last request: 2.953610 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefb269022370d71a856eb09d3380409') in 0.087664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1689
+========================================================================
+Received Import Request.
+  Time since last request: 2.971070 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61fbcc113050a66077e5dc6d49fc9029') in 0.092783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1689
+========================================================================
+Received Import Request.
+  Time since last request: 2.730807 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d99649c118e7493c9005cdaa6640dbe') in 0.090259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1689
+========================================================================
+Received Import Request.
+  Time since last request: 55.193845 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3794d7634046645cf947d344fa77b15a') in 0.089304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1690
+========================================================================
+Received Import Request.
+  Time since last request: 15.025863 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f3553947c309ec5de4b75d02619344') in 0.095889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1691
+========================================================================
+Received Import Request.
+  Time since last request: 2.912821 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee1450cee281ff4a55040cb1917d78d') in 0.089401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1692
+========================================================================
+Received Import Request.
+  Time since last request: 1.116017 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1775e4293447ea1c40400f79703191') in 0.090071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1692
+========================================================================
+Received Import Request.
+  Time since last request: 0.507680 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca1f5b932b572ff97289c36139e63e2') in 0.089547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1692
+========================================================================
+Received Import Request.
+  Time since last request: 5.172945 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cdc6f2046378ea21a559246057bc023') in 0.090136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1692
+========================================================================
+Received Import Request.
+  Time since last request: 4.957401 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a956cc1c51a7f26dd9487267ceca4e02') in 0.089342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1692
+========================================================================
+Received Import Request.
+  Time since last request: 6.961576 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049b8d0d1bce794e52b7582aa39db8ef') in 0.095501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1692
+========================================================================
+Received Import Request.
+  Time since last request: 28.134633 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c23ffd68c81cf837c7f445400b6d8e') in 0.087905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1693
+========================================================================
+Received Import Request.
+  Time since last request: 1.312695 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5659bc32d734ebfa5d4884b40277b97') in 0.092354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1693
+========================================================================
+Received Import Request.
+  Time since last request: 0.108373 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e366c9daf14a0eed51695309454f9a7') in 0.090248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1693
+========================================================================
+Received Import Request.
+  Time since last request: 45.692636 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1fb16b96f06a0d79bf53c1e8c28b13') in 0.088448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1694
+========================================================================
+Received Import Request.
+  Time since last request: 22.272356 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a0a69dc6ac4d998b1a988009d04674') in 0.098434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1695
+========================================================================
+Received Import Request.
+  Time since last request: 0.903661 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e445d4eee174c0cf0db529d11984bf') in 0.089629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1695
+========================================================================
+Received Import Request.
+  Time since last request: 4.375084 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7debc97293f49f6fdbbe289112ab7e3') in 0.090760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1695
+========================================================================
+Received Import Request.
+  Time since last request: 1.905884 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb32c01cac85036680bbb8812084511') in 0.091180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1695
+========================================================================
+Received Import Request.
+  Time since last request: 1.740733 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff17265dd5159ce8da90e1b89cf4257') in 0.087989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1695
+========================================================================
+Received Import Request.
+  Time since last request: 2.367652 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc06265056cedf2d239960ccdc3d6ded') in 0.091353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1695
+========================================================================
+Received Import Request.
+  Time since last request: 3.772240 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574cf2c6f9296c882af40e2bed36f3d6') in 0.090750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1695
+========================================================================
+Received Import Request.
+  Time since last request: 2.136008 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae8eff6a484ff0820ff5bc19766caf2') in 0.094171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1695
+========================================================================
+Received Import Request.
+  Time since last request: 4.739555 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832edfd4c0ae9fdb316923cf72c8a963') in 0.088978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1695
+========================================================================
+Received Import Request.
+  Time since last request: 2.948365 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39cd682093351f46462dcb90fbdad4c') in 0.096107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1695
+========================================================================
+Received Import Request.
+  Time since last request: 6.378151 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c498b800fbda48c5d34eb9216dc58f') in 0.089797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1696
+========================================================================
+Received Import Request.
+  Time since last request: 6.744179 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25bd63dec5e2cd830c48a5c85caf772a') in 0.089183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1697
+========================================================================
+Received Import Request.
+  Time since last request: 15.072817 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd837e8c5f7c54c604744afeec3f8b380') in 0.091774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1698
+========================================================================
+Received Import Request.
+  Time since last request: 1.909358 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18bab8637f86e07fcc9695572d0f6d93') in 0.091065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1698
+========================================================================
+Received Import Request.
+  Time since last request: 1.111515 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe28f4f4d604a2b4e60429e64b25e469') in 0.102538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1698
+========================================================================
+Received Import Request.
+  Time since last request: 0.296889 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9d0f84a5119f98c647cc4a9f19d679') in 0.093273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1698
+========================================================================
+Received Import Request.
+  Time since last request: 11.494362 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c39d643863436651f7963aff332254cd') in 0.091708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1698
+========================================================================
+Received Import Request.
+  Time since last request: 2.121509 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce868864dd6763ebf70d3162623a3478') in 0.086836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1698
+========================================================================
+Received Import Request.
+  Time since last request: 4.003825 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87721acf5e27f8da185172f706495cd7') in 0.093639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1698
+========================================================================
+Received Import Request.
+  Time since last request: 6.388012 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb873912ff7c8500279e3241d8a0a879') in 0.093478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1698
+========================================================================
+Received Import Request.
+  Time since last request: 5.340668 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4a4de95cf028f2381dcd980b6f0580') in 0.089370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1698
+========================================================================
+Received Import Request.
+  Time since last request: 2.136448 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc105d4aca01158fe0f9f0069b315f42') in 0.092925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1698
+========================================================================
+Received Import Request.
+  Time since last request: 11.618580 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b31550bae9955d13bae4b107c845d4f') in 0.090354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1698
+========================================================================
+Received Import Request.
+  Time since last request: 89.972274 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d98c819669cf0ba45b1101e7a8be92') in 0.090292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1699
+========================================================================
+Received Import Request.
+  Time since last request: 2.722756 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e704bfdc7563ff28a2b7dcc31a5e7309') in 0.088190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1699
+========================================================================
+Received Import Request.
+  Time since last request: 0.303543 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e657bbe691ef31110a3c9d7d9c4ec936') in 0.087649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1699
+========================================================================
+Received Import Request.
+  Time since last request: 3.123047 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87fa7573d630d0f61a661bacc03817fc') in 0.088123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1700
+========================================================================
+Received Import Request.
+  Time since last request: 3.344337 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71eb2f046971f4f7ec864a258786a906') in 0.090690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1701
+========================================================================
+Received Import Request.
+  Time since last request: 2.380883 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7c875520791698ab5a8b9be332148d') in 0.090563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1701
+========================================================================
+Received Import Request.
+  Time since last request: 4.101970 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d89fdab4459071811b97a4e441a7c6') in 0.092708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1701
+========================================================================
+Received Import Request.
+  Time since last request: 5.581073 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec9b90a50d54d9a96443025221b582e') in 0.089958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1701
+========================================================================
+Received Import Request.
+  Time since last request: 5.565456 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367c3fbe4952d410b699dd48f485f9d7') in 0.087884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1701
+========================================================================
+Received Import Request.
+  Time since last request: 8.364106 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c463a8faa0833d0fc7fa6aa73bda9ab2') in 0.089988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1701
+========================================================================
+Received Import Request.
+  Time since last request: 41.750527 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a780e3309fb284e761672b23cfc28f') in 0.090479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1701
+========================================================================
+Received Import Request.
+  Time since last request: 7.581061 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab752763fe02d7a728ecd39f7382c674') in 0.106807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1701
+========================================================================
+Received Import Request.
+  Time since last request: 77.367869 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f96345994f92460f7a11de498ea71f') in 0.089732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1701
+========================================================================
+Received Import Request.
+  Time since last request: 0.503050 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1d68cceb540d132bf79d68e2739618') in 0.089057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1701
+========================================================================
+Received Import Request.
+  Time since last request: 41.649331 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbb53626d4388e72f501b15770491cf') in 0.091566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1700
+========================================================================
+Received Import Request.
+  Time since last request: 2.356301 seconds.
+  path: Assets/Animations/Joan/Idle_AZRI.prefab
+  artifactKey: Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Joan/Idle_AZRI.prefab using Guid(d560bcd98abe1d943b69e1cee64d902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d2c0599bae79c8110c138883ceb53b') in 0.092955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1701
