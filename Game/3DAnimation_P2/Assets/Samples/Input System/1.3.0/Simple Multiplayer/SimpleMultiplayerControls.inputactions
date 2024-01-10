@@ -121,7 +121,7 @@
                     "id": "242c2415-2096-4a1a-9056-d3e4ff63f46f",
                     "path": "<Gamepad>/leftStick/x",
                     "interactions": "",
-                    "processors": "",
+                    "processors": "Invert",
                     "groups": "Gamepad",
                     "action": "Move",
                     "isComposite": false,

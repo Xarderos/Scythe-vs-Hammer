@@ -52,22 +52,25 @@ public class PlayerController : MonoBehaviour
     {
         _animator = GetComponent<Animator>();
         _id = _playercount++;
+        _isAttacking = false;
+        _isBlocking = false;
     }
+    public void LateUpdate()
+    {
 
+    }
     public void SetOtherPlayer(Transform other)
     {
         _otherPlayer = other;
     }
 
-    internal void SetAtacking(bool value, UpDown upDown)
+    public void SetAtacking(bool value, UpDown upDown)
     {
         _isAttacking = value;
         UpOrDown = upDown;
     }
 
-   
-
-    internal void SetBlocking(bool value, UpDown upDown)
+    public void SetBlocking(bool value, UpDown upDown)
     {
         _isBlocking = value;
         UpOrDown = upDown;
@@ -76,34 +79,51 @@ public class PlayerController : MonoBehaviour
     public void TryHighQuickAttack()
     {
         if (CanAttack)
+        {
+            SetAtacking(true, UpDown.Up);
             _animator.SetTrigger(ATTACK_HIGH_QUICK);
+        }
     }
     public void TryHighSlowAttack()
     {
         if (CanAttack)
+        {
+            SetAtacking(true, UpDown.Up);
             _animator.SetTrigger(ATTACK_HIGH_SLOW);
+        }
     }
     public void TryLowQuickAttack()
     {
         if (CanAttack)
+        {
+            SetAtacking(true, UpDown.Down);
             _animator.SetTrigger(ATTACK_LOW_QUICK);
+        }
     }
     public void TryLowSlowAttack()
     {
         if (CanAttack)
+        {
+            SetAtacking(true, UpDown.Down);
             _animator.SetTrigger(ATTACK_LOW_SLOW);
+        }
     }
 
     internal void TryHighBlock()
     {
-        if (CanBlock)
+        if (CanBlock) {
+            SetBlocking(true, UpDown.Up);
             _animator.SetTrigger(BLOCK_HIGH);
+        }
     }
 
     internal void TryLowBlock()
     {
         if (CanBlock)
+        {
+            SetBlocking(true, UpDown.Down);
             _animator.SetTrigger(BLOCK_LOW);
+        }
     }
 
 
@@ -139,7 +159,7 @@ public class PlayerController : MonoBehaviour
     {
         yield return new WaitForSeconds(0.1f);
         _dead = true;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(4);
         PlayerStart.nPLayers = 0;
         _playercount = 0;
         MovementController._playercount = 0;

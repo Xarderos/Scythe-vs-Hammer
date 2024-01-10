@@ -349,6 +349,8 @@
 "Assets/KY_effects/Script/ConGUI.cs"
 "Assets/KY_effects/Script/Lighting.cs"
 "Assets/Samples/Input System/1.3.0/Simple Multiplayer/SimpleMultiplayerPlayer.cs"
+"Assets/SetAttackFalse.cs"
+"Assets/SetBlockingFalse.cs"
 "Assets/_Scripts/Attack.cs"
 "Assets/_Scripts/MovementController.cs"
 "Assets/_Scripts/PlayerController.cs"

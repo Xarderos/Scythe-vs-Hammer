@@ -34,7 +34,15 @@ public class MovementController : MonoBehaviour
         _animator = GetComponent<Animator>();
         _id = _playercount++;
     }
+    private void Update()
+    {
+        float Movspeed = _animator.GetFloat("Speed") * Time.deltaTime;
 
+        Vector3 moveVec3 = new Vector3(Movspeed, 0, 0);
+
+        transform.position += moveVec3; 
+
+    }
     public void SetOtherPlayer(Transform other)
     {
         _otherPlayer = other;
@@ -82,8 +90,6 @@ public class MovementController : MonoBehaviour
         if (_otherPlayer == null)
             return true;
 
-        if (_id == 1 && transform.position.x <= (_otherPlayer.position.x + SafetyDistance))
-            return false;
 
         return true;
     }
@@ -94,9 +100,6 @@ public class MovementController : MonoBehaviour
 
         if (_otherPlayer == null)
             return true;
-
-        if (_id == 0 && transform.position.x >= (_otherPlayer.position.x - SafetyDistance))
-            return false;
 
         return true;
     }
